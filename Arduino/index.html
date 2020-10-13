@@ -13,7 +13,7 @@
     
     
       
-        <title>Setting up environment - IOT-A-SYNC</title>
+        <title>Arduino FrameWork - IOT-A-SYNC</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setting-up-ide" class="md-skip">
+        <a href="#basic-functions-that-can-be-used-with-esp32" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Setting up environment
+              Arduino FrameWork
             
           </span>
         </div>
@@ -170,12 +170,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       IDE
@@ -193,76 +191,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Setting up environment
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="Setting up environment" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../environment/" title="Setting up environment" class="md-nav__link">
       Setting up environment
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-ide" class="md-nav__link">
-    What is IDE?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#popular-ide-in-opensource-community" class="md-nav__link">
-    Popular IDE in opensource community
-  </a>
-  
-    <nav class="md-nav" aria-label="Popular IDE in opensource community">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#arduino-framework" class="md-nav__link">
-    Arduino Framework
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-framework" class="md-nav__link">
-    Other Framework
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -272,7 +205,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Arduino_Environment/" title="Arduino IDE" class="md-nav__link">
+    <a href="../environment/Arduino_Environment/" title="Arduino IDE" class="md-nav__link">
       Arduino IDE
     </a>
   </li>
@@ -284,7 +217,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
+    <a href="../environment/Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
       Platform IO
     </a>
   </li>
@@ -323,11 +256,138 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../Arduino/" title="Arduino FrameWork" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Arduino FrameWork
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Arduino FrameWork" class="md-nav__link md-nav__link--active">
       Arduino FrameWork
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pinout-diagram" class="md-nav__link">
+    Pinout diagram
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-functions" class="md-nav__link">
+    Basic functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pinmode" class="md-nav__link">
+    pinMode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#digitalwrite" class="md-nav__link">
+    digitalWrite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#digitalread" class="md-nav__link">
+    digitalRead
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analogread" class="md-nav__link">
+    analogRead
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-ananlog-values" class="md-nav__link">
+    Writing Ananlog values
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing Ananlog values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-dac" class="md-nav__link">
+    Using DAC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-pwm" class="md-nav__link">
+    Using PWM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delay" class="md-nav__link">
+    delay()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrupts" class="md-nav__link">
+    Interrupts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachinterrupt" class="md-nav__link">
+    attachInterrupt()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -355,30 +415,92 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-ide" class="md-nav__link">
-    What is IDE?
+  <a href="#pinout-diagram" class="md-nav__link">
+    Pinout diagram
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#popular-ide-in-opensource-community" class="md-nav__link">
-    Popular IDE in opensource community
+  <a href="#basic-functions" class="md-nav__link">
+    Basic functions
   </a>
   
-    <nav class="md-nav" aria-label="Popular IDE in opensource community">
+    <nav class="md-nav" aria-label="Basic functions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#arduino-framework" class="md-nav__link">
-    Arduino Framework
+  <a href="#pinmode" class="md-nav__link">
+    pinMode
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#other-framework" class="md-nav__link">
-    Other Framework
+  <a href="#digitalwrite" class="md-nav__link">
+    digitalWrite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#digitalread" class="md-nav__link">
+    digitalRead
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analogread" class="md-nav__link">
+    analogRead
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-ananlog-values" class="md-nav__link">
+    Writing Ananlog values
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing Ananlog values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-dac" class="md-nav__link">
+    Using DAC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-pwm" class="md-nav__link">
+    Using PWM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delay" class="md-nav__link">
+    delay()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interrupts" class="md-nav__link">
+    Interrupts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachinterrupt" class="md-nav__link">
+    attachInterrupt()
   </a>
   
 </li>
@@ -401,18 +523,72 @@
               
                 
                 
-                <h1 id="setting-up-ide">Setting up IDE</h1>
-<h2 id="what-is-ide">What is IDE?</h2>
-<p>An integrated development environment (IDE) is an application that facilitates application development. IDEs are designed to encompass all programming tasks in one application. Therefore, IDEs offer a central interface featuring all the tools a developer needs for firmware development like serial montior, editor, compiler etc.</p>
-<h2 id="popular-ide-in-opensource-community">Popular IDE in opensource community</h2>
-<h3 id="arduino-framework">Arduino Framework</h3>
-<p>In opensource community, two type of environment are more popular with Arduino Framework :-</p>
-<ol>
-<li>Arduino IDE </li>
-<li>Visual Studio Code + PaltformIO</li>
-</ol>
-<h3 id="other-framework">Other Framework</h3>
-<p>There are other framework also available like ESP-IDF. But its not that much popular among beginners.</p>
+                <h1 id="basic-functions-that-can-be-used-with-esp32">Basic Functions that can be used with ESP32</h1>
+<p>ESP32 uses many functions that are very similar to many arduino boards, the only difference is that some parameters have to be changed according to the hardware limitation of this board.</p>
+<h2 id="pinout-diagram">Pinout diagram</h2>
+<p><img alt="" src="../_media/wroompinout.png" /></p>
+<h2 id="basic-functions">Basic functions</h2>
+<p>The pins of ESP32 is connected to various connectors of IOT-A-SYNC, verify it before starting Some of the basic functions that can be used are given below:</p>
+<h3 id="pinmode"><a href="https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/">pinMode</a></h3>
+<p>This function lets the controller know weather the GPIO pin will act as Input or Output.</p>
+<h3 id="digitalwrite"><a href="https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/">digitalWrite</a></h3>
+<p>This command instructs a particular GPIO pin to go logic HIGH or logic LOW as per the arguments.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">digitalWrite</span><span class="p">(</span><span class="n">GPIO_pin_number</span><span class="p">,</span><span class="n">HIGH</span><span class="p">);</span> <span class="c1">//This gives logic HIGH (3.3V)</span>
+<span class="n">digitalWrite</span><span class="p">(</span><span class="n">GPIO_pin_number</span><span class="p">,</span><span class="n">LOW</span><span class="p">);</span> <span class="c1">//This gives logic LOW (0V)</span>
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="digitalread"><a href="https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/">digitalRead</a></h3>
+<p>This command checks the digital logic voltage at a particular pin specified as arguments. It returns a boolean TRUE if logic detected is HIGH at that pin and FALSE if logic LOW is detected.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">digitalRead</span><span class="p">(</span><span class="n">GPIO_pin_number</span><span class="p">);</span>
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="analogread"><a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/">analogRead</a></h3>
+<p>This reads the analog value at the pin specified as argument. Since it has 12bit ADC (analog-to-digital convertor) it can only read voltages in discrete intervals of 2^8 (i.e 2^(no. of bits)), therefore it can read upto an accuracy of 3.3/(2^8) = 0.805mV.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">analogRead</span><span class="p">(</span><span class="n">GPIO_pin_number</span><span class="p">);</span>
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="writing-ananlog-values">Writing Ananlog values</h3>
+<p>ESP32 does not have <a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/">analogWrite()</a> function. So we use different methods to generate analog signals. One such method is using PWM and other is using the inbuilt DAC hardware.</p>
+<h4 id="using-dac">Using DAC</h4>
+<p>DacWrite(GPIO_pin,value);
+  //'value' defined ranges from 0 to 4095 as it uses a 12 bit DAC.</p>
+<h4 id="using-pwm">Using PWM</h4>
+<p>Here we use the concept that in a pulsed wave the average output is (max Voltage)X(duty cycle). Thus this method can be used to vary the brightness of an LED, vary the sound in a speaker, vary the speed of motors and many more.</p>
+<p>For this, we define a particular frequency with which we want to send PWM (For lighting LEDs it should be much higher than the persistence of vision, for motors it should be according to the time constant). The duty cycle can be varied by keeping the output HIGH for some time and LOW for the rest of the time. See <a href="https://github.com/MrityunjaiKumar/Design_and_Practicum_workshop-DPW100-/blob/master/Software/Examples/On_Board_Peripheral_Examples/PWM/PWM.ino">this example</a> to get an overview on how to code for PWM.</p>
+<h3 id="delay"><a href="https://www.arduino.cc/reference/en/language/functions/time/delay/">delay()</a></h3>
+<p>This function lets the controller to wait for certain millisecons (as specified in the argumenmt) before executing the next instruction. When the delay is executed, the controller cannot do any other task, it’s like being in a ‘paused’ state.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span> <span class="c1">//delay of 1000ms i.e.1sec</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>Similar function is <a href="https://www.arduino.cc/reference/en/language/functions/time/delaymicroseconds/">delayMicroseconds()</a>.
+<a href="https://www.arduino.cc/reference/en/language/functions/time/millis/">Millis()</a> - This function returns the time in milliseconds that have been passed since program execution has started. It has overflow time of about 50 days!</p>
+<h3 id="interrupts">Interrupts</h3>
+<p>Interrupt is a signal emitted by hardware or software when a process or an event needs immediate attention. It alerts the processor to a high priority process requiring interruption of the current working process. In I/O devices one of the bus control lines is dedicated for this purpose and is called the Interrupt Service Routine (ISR).</p>
+<p>When a device raises an interrupt at lets say process i, the processor first completes the execution of instruction i. Then it loads the Program Counter (PC) with the address of the first instruction of the ISR. Before loading the Program Counter with the address, the address of the interrupted instruction is moved to a temporary location. Therefore, after handling the interrupt the processor can continue with process i+1.</p>
+<p>Interrupts here can be callled in four ways/Modes:-</p>
+<p>LOW to trigger the interrupt whenever the pin is low,
+CHANGE to trigger the interrupt whenever the pin changes value
+RISING to trigger when the pin goes from low to high,
+FALLING for when the pin goes from high to low.</p>
+<p><strong>All GPIO pins can be configered as Interrupt pins</strong></p>
+<h3 id="attachinterrupt"><a href="https://lastminuteengineers.com/handling-esp32-gpio-interrupts-tutorial/">attachInterrupt()</a></h3>
+<p>This tells the controller on which pin the interrupt has to be attached and what ISR does it corresponds.
+  attachInterrupt(GPIO_Pin_no, ISR, Mode);</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>//&#39;ISR&#39; is a function which is called when interrupt is received. ISR has to be as small as possible.
+//&#39;Mode&#39; specifies the event when interrupt should be called.
+</code></pre></div>
+</td></tr></table>
+
+<p>detachInterrupt(pin_no) It disables the interrupt at that pin.
+Serial Class
+This is a class predefined in the “Arduino.h” library for serial communication. It consists of many functions which are used for manipulating data. This has extreme importance in UART communication.</p>
+<p>Visit: <a href="https://www.arduino.cc/reference/en/language/functions/communication/serial/">https://www.arduino.cc/reference/en/language/functions/communication/serial/</a> to know more about functions available in this class.</p>
                 
               
               
@@ -431,7 +607,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href=".." title="Introduction" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../pinouts/" title="Pinout" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -440,25 +616,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Introduction
+                Pinout
               </div>
             </div>
           </a>
         
-        
-          <a href="Arduino_Environment/" title="Arduino IDE" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Arduino IDE
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
         
       </nav>
     </div>

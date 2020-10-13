@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#setting-up-arduino-ide" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -207,10 +212,48 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Arduino IDE
+        <span class="md-nav__icon md-icon"></span>
+      </label>
     
     <a href="./" title="Arduino IDE" class="md-nav__link md-nav__link--active">
       Arduino IDE
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
+    Downloading and Installing Arduino IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
+    Installing ESP32 add-ons for Arduino IDE
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -232,6 +275,42 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Driver/" title="Driver" class="md-nav__link">
+      Driver
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../pinouts/" title="Pinout" class="md-nav__link">
+      Pinout
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Arduino/" title="Arduino FrameWork" class="md-nav__link">
+      Arduino FrameWork
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -239,15 +318,59 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
+    Downloading and Installing Arduino IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
+    Installing ESP32 add-ons for Arduino IDE
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Arduino IDE</h1>
-                
-                
+                <h1 id="setting-up-arduino-ide">Setting up Arduino IDE</h1>
+<h2 id="downloading-and-installing-arduino-ide">Downloading and Installing Arduino IDE</h2>
+<p>In order to download the Arduino IDE, visit this link, download and run the installation.</p>
+<h2 id="installing-esp32-add-ons-for-arduino-ide">Installing ESP32 add-ons for Arduino IDE</h2>
+<ul>
+<li>In the Arduino IDE, go to File –&gt; Preferences</li>
+<li>Enter <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> into the “Additional Board Manager URLs” field.</li>
+<li>Go to Tools –&gt; Board –&gt; Boards Manager. In the dialog box, that opens up, search for ESP32, and press install button for the “ESP32 by Espressif Systems“.</li>
+<li>Now, go to Tools –&gt; Board. Now, select the ESP32 DEV Module.</li>
+</ul>
                 
               
               
