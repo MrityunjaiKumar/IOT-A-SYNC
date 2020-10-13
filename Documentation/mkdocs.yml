@@ -12,6 +12,45 @@ nav:
     - Arduino FrameWork : Arduino/index.md
     - Platform IO template : Template/index.md
     - FreeRtos basics : FreeRtos/index.md
+    # - Wireless Device Roles and topology of network
+        # - Wireless Clients (Station)
+        # - Access Points (Master)
+        # - Ad-Hoc Node (Mesh)
+    # Difference between Unicast, Broadcast & Multicast
+    # - REST API
+        # - GET
+        # - POST 
+        # - PUT 
+        # - DELETE
+        # - PATCH
+    # - MQTT
+    # - Websockets 
+    # - COAP
+    # - Webserver
+    # - Network Discovery
+        # - UPNP
+        # - mDNS
+    # Securing Flash
+    # - Buetooth communication
+    # - BLE communication
+    # - Lora Commnication
+    # - NFC Communcaition
+    # - SIM800L communication
+    # - Network Topology
+    # - WSN
+    # - Connecting to cloud
+    # - Security
+        # - Cryptographic accelerators
+        # - Authentication 
+        # - Authorisation
+    # - OTA
+    # Alexa control and discovery
+    # Interfacing to Telegram
+    # Email
+    # Google sheet
+
+
+    # IOT Stack on server
     - Examples :
       - OnBoard Peripherals:
         - Blink Led : Examples/OnBoard_Peripheral/Blink_Led.md
