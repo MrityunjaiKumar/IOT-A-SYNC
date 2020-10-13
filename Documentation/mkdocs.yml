@@ -5,6 +5,19 @@ nav:
       - Setting up environment : environment/index.md
       - Arduino IDE : environment/Arduino_Environment.md
       - Platform IO : environment/Paltform_IO_Environment.md
+    - Driver : Driver/index.md
+    - GIT : GIT/index.md
+    - IOT-A-SYNC Pinout : pinouts/index.md
+    - Schematic : Hardware/index.md
+    - Arduino FrameWork : Arduino/index.md
+    - Platform IO template : Template/index.md
+    - FreeRtos basics : FreeRtos/index.md
+    - Examples :
+      - OnBoard Peripherals:
+        - Blink Led : Examples/OnBoard_Peripheral/Blink_Led.md
+        - IR Reciever: Examples/OnBoard_Peripheral/IR_Reciever.md
+      - Webserver for plotting realtime graph : Examples/WebServer_plotting_Graph_of_TempPresHumAlt.md
+    
 
 theme: 
   name: material
@@ -30,7 +43,7 @@ extra:
     - icon: fontawesome/brands/telegram
       link: 'https://t.me/sincgrid'
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/SincGrid'
+      link: 'https://store.sincgrid.com/index.php?route=product/product&product_id=53'
 # plugins:
 #     - with-pdf:
 #         output_path: output_pdf/document.pdf
