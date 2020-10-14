@@ -13,7 +13,7 @@
     
     
       
-        <title>Arduino IDE - IOT-A-SYNC</title>
+        <title>Websockets - IOT-A-SYNC</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setting-up-arduino-ide" class="md-skip">
+        <a href="#websockets" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Arduino IDE
+              Websockets
             
           </span>
         </div>
@@ -170,12 +170,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       IDE
@@ -195,7 +193,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Setting up environment" class="md-nav__link">
+    <a href="../../environment/" title="Setting up environment" class="md-nav__link">
       Setting up environment
     </a>
   </li>
@@ -205,56 +203,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Arduino IDE
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="Arduino IDE" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../environment/Arduino_Environment/" title="Arduino IDE" class="md-nav__link">
       Arduino IDE
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -264,7 +217,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
+    <a href="../../environment/Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
       Platform IO
     </a>
   </li>
@@ -363,10 +316,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" checked>
     
     <label class="md-nav__link" for="nav-10">
       MQTT
@@ -386,7 +341,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../MQTT/" title="MQTT" class="md-nav__link">
+    <a href="../" title="MQTT" class="md-nav__link">
       MQTT
     </a>
   </li>
@@ -396,11 +351,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../MQTT/websockets/" title="Websockets" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Websockets" class="md-nav__link md-nav__link--active">
       Websockets
     </a>
+    
   </li>
 
         
@@ -676,28 +640,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -709,16 +651,200 @@
               
                 
                 
-                <h1 id="setting-up-arduino-ide">Setting up Arduino IDE</h1>
-<h2 id="downloading-and-installing-arduino-ide">Downloading and Installing Arduino IDE</h2>
-<p>In order to download the Arduino IDE, visit this link, download and run the installation.</p>
-<h2 id="installing-esp32-add-ons-for-arduino-ide">Installing ESP32 add-ons for Arduino IDE</h2>
-<ul>
-<li>In the Arduino IDE, go to File –&gt; Preferences</li>
-<li>Enter <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> into the “Additional Board Manager URLs” field.</li>
-<li>Go to Tools –&gt; Board –&gt; Boards Manager. In the dialog box, that opens up, search for ESP32, and press install button for the “ESP32 by Espressif Systems“.</li>
-<li>Now, go to Tools –&gt; Board. Now, select the ESP32 DEV Module.</li>
-</ul>
+                <h1 id="websockets">Websockets</h1>
+<p>WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. </p>
+<h1 id="mqtt-over-websockets">MQTT over websockets</h1>
+<p>MQTT over websockets allowes every browser to be a MQTT client. You can push messages to your browser when an event occurs or publish messages to your device. CloudMQTT Websockets Port (TLS only) can be found on the details page for your instance.</p>
+<p>WebSocket is distinct from HTTP. Both protocols are located at layer 7 in the OSI model and depend on TCP at layer 4. WebSocket is designed to work over HTTP ports 443 and 80 as well as to support HTTP proxies and intermediaries. To achieve compatibility, the WebSocket handshake uses the HTTP Upgrade header to change from the HTTP protocol to the WebSocket protocol.</p>
+<p>The WebSocket protocol enables interaction between a web browser (or other client application) and a web server with lower overhead than half-duplex alternatives such as HTTP polling, facilitating real-time data transfer from and to the server. This is made possible by providing a standardized way for the server to send content to the client without being first requested by the client, and allowing messages to be passed back and forth while keeping the connection open. In this way, a two-way ongoing conversation can take place between the client and the server. The communications are usually done over TCP port number 443 (or 80 in the case of unsecured connections), which is of benefit for those environments which block non-web Internet connections using a firewall.</p>
+<h2 id="javascript-client-example">Javascript client example</h2>
+<h3 id="demojs">Demo.js</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// Called after form input is processed</span>
+<span class="kd">function</span> <span class="nx">startConnect</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Generate a random client ID</span>
+    <span class="nx">clientID</span> <span class="o">=</span> <span class="s2">&quot;clientID-&quot;</span> <span class="o">+</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">);</span>
+
+    <span class="c1">// Fetch the hostname/IP address and port number from the form</span>
+    <span class="nx">host</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;host&quot;</span><span class="p">).</span><span class="nx">value</span><span class="p">;</span>
+    <span class="nx">port</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;port&quot;</span><span class="p">).</span><span class="nx">value</span><span class="p">;</span>
+
+    <span class="c1">// Print output for the user in the messages div</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span&gt;Connecting to: &#39;</span> <span class="o">+</span> <span class="nx">host</span> <span class="o">+</span> <span class="s1">&#39; on port: &#39;</span> <span class="o">+</span> <span class="nx">port</span> <span class="o">+</span> <span class="s1">&#39;&lt;/span&gt;&lt;br/&gt;&#39;</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span&gt;Using the following client value: &#39;</span> <span class="o">+</span> <span class="nx">clientID</span> <span class="o">+</span> <span class="s1">&#39;&lt;/span&gt;&lt;br/&gt;&#39;</span><span class="p">;</span>
+
+    <span class="c1">// Initialize new Paho client connection</span>
+    <span class="nx">client</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Paho</span><span class="p">.</span><span class="nx">MQTT</span><span class="p">.</span><span class="nx">Client</span><span class="p">(</span><span class="nx">host</span><span class="p">,</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">port</span><span class="p">),</span> <span class="nx">clientID</span><span class="p">);</span>
+
+    <span class="c1">// Set callback handlers</span>
+    <span class="nx">client</span><span class="p">.</span><span class="nx">onConnectionLost</span> <span class="o">=</span> <span class="nx">onConnectionLost</span><span class="p">;</span>
+    <span class="nx">client</span><span class="p">.</span><span class="nx">onMessageArrived</span> <span class="o">=</span> <span class="nx">onMessageArrived</span><span class="p">;</span>
+
+    <span class="c1">// Connect the client, if successful, call onConnect function</span>
+    <span class="nx">client</span><span class="p">.</span><span class="nx">connect</span><span class="p">({</span> 
+        <span class="nx">onSuccess</span><span class="o">:</span> <span class="nx">onConnect</span><span class="p">,</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="c1">// Called when the client connects</span>
+<span class="kd">function</span> <span class="nx">onConnect</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Fetch the MQTT topic from the form</span>
+    <span class="nx">topic</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;topic&quot;</span><span class="p">).</span><span class="nx">value</span><span class="p">;</span>
+
+    <span class="c1">// Print output for the user in the messages div</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span&gt;Subscribing to: &#39;</span> <span class="o">+</span> <span class="nx">topic</span> <span class="o">+</span> <span class="s1">&#39;&lt;/span&gt;&lt;br/&gt;&#39;</span><span class="p">;</span>
+
+    <span class="c1">// Subscribe to the requested topic</span>
+    <span class="nx">client</span><span class="p">.</span><span class="nx">subscribe</span><span class="p">(</span><span class="nx">topic</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Called when the client loses its connection</span>
+<span class="kd">function</span> <span class="nx">onConnectionLost</span><span class="p">(</span><span class="nx">responseObject</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;onConnectionLost: Connection Lost&quot;</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">responseObject</span><span class="p">.</span><span class="nx">errorCode</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;onConnectionLost: &quot;</span> <span class="o">+</span> <span class="nx">responseObject</span><span class="p">.</span><span class="nx">errorMessage</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Called when a message arrives</span>
+<span class="kd">function</span> <span class="nx">onMessageArrived</span><span class="p">(</span><span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;onMessageArrived: &quot;</span> <span class="o">+</span> <span class="nx">message</span><span class="p">.</span><span class="nx">payloadString</span><span class="p">);</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span&gt;Topic: &#39;</span> <span class="o">+</span> <span class="nx">message</span><span class="p">.</span><span class="nx">destinationName</span> <span class="o">+</span> <span class="s1">&#39;  | &#39;</span> <span class="o">+</span> <span class="nx">message</span><span class="p">.</span><span class="nx">payloadString</span> <span class="o">+</span> <span class="s1">&#39;&lt;/span&gt;&lt;br/&gt;&#39;</span><span class="p">;</span>
+    <span class="nx">updateScroll</span><span class="p">();</span> <span class="c1">// Scroll to bottom of window</span>
+<span class="p">}</span>
+
+<span class="c1">// Called when the disconnection button is pressed</span>
+<span class="kd">function</span> <span class="nx">startDisconnect</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">client</span><span class="p">.</span><span class="nx">disconnect</span><span class="p">();</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span&gt;Disconnected&lt;/span&gt;&lt;br/&gt;&#39;</span><span class="p">;</span>
+    <span class="nx">updateScroll</span><span class="p">();</span> <span class="c1">// Scroll to bottom of window</span>
+<span class="p">}</span>
+
+<span class="c1">// Updates #messages div to auto-scroll</span>
+<span class="kd">function</span> <span class="nx">updateScroll</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;messages&quot;</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">scrollTop</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">scrollHeight</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+
+<h3 id="indexhtml">Index.html</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;utf-8&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>mqtt-demo: A simple web application that can subscribe to topics from an MQTT broker over websockets<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style.css&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.min.js&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;demo.js&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+   <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;wrapper&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>mqtt-demo<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">form</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;connection-information-form&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Hostname or IP Address:<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span> 
+            <span class="p">&lt;</span><span class="nt">input</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;host&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;host&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;test.mosquitto.org&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Port:<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">input</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;port&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;port&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;8080&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Topic:<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">input</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;topic&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;topic&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;#&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;button&quot;</span> <span class="na">onclick</span><span class="o">=</span><span class="s">&quot;startConnect()&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Connect&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;button&quot;</span> <span class="na">onclick</span><span class="o">=</span><span class="s">&quot;startDisconnect()&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Disconnect&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;messages&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+   <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+</td></tr></table>
                 
               
               
@@ -737,7 +863,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../" title="Setting up environment" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../" title="MQTT" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -746,19 +872,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Setting up environment
+                MQTT
               </div>
             </div>
           </a>
         
         
-          <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../mDNS/" title="mDNS" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Platform IO
+                mDNS
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

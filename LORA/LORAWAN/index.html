@@ -13,7 +13,7 @@
     
     
       
-        <title>Arduino IDE - IOT-A-SYNC</title>
+        <title>LORAWAN - IOT-A-SYNC</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setting-up-arduino-ide" class="md-skip">
+        <a href="#lorawan" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Arduino IDE
+              LORAWAN
             
           </span>
         </div>
@@ -170,12 +170,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       IDE
@@ -195,7 +193,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Setting up environment" class="md-nav__link">
+    <a href="../../environment/" title="Setting up environment" class="md-nav__link">
       Setting up environment
     </a>
   </li>
@@ -205,56 +203,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Arduino IDE
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="Arduino IDE" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../environment/Arduino_Environment/" title="Arduino IDE" class="md-nav__link">
       Arduino IDE
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -264,7 +217,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
+    <a href="../../environment/Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
       Platform IO
     </a>
   </li>
@@ -525,10 +478,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13" checked>
     
     <label class="md-nav__link" for="nav-13">
       Lora Commnication
@@ -548,7 +503,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../LORA/" title="LORA" class="md-nav__link">
+    <a href="../" title="LORA" class="md-nav__link">
       LORA
     </a>
   </li>
@@ -558,11 +513,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../LORA/LORAWAN/" title="LORAWAN" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="LORAWAN" class="md-nav__link md-nav__link--active">
       LORAWAN
     </a>
+    
   </li>
 
         
@@ -676,28 +640,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -709,16 +651,11 @@
               
                 
                 
-                <h1 id="setting-up-arduino-ide">Setting up Arduino IDE</h1>
-<h2 id="downloading-and-installing-arduino-ide">Downloading and Installing Arduino IDE</h2>
-<p>In order to download the Arduino IDE, visit this link, download and run the installation.</p>
-<h2 id="installing-esp32-add-ons-for-arduino-ide">Installing ESP32 add-ons for Arduino IDE</h2>
-<ul>
-<li>In the Arduino IDE, go to File –&gt; Preferences</li>
-<li>Enter <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> into the “Additional Board Manager URLs” field.</li>
-<li>Go to Tools –&gt; Board –&gt; Boards Manager. In the dialog box, that opens up, search for ESP32, and press install button for the “ESP32 by Espressif Systems“.</li>
-<li>Now, go to Tools –&gt; Board. Now, select the ESP32 DEV Module.</li>
-</ul>
+                <h1 id="lorawan">LORAWAN</h1>
+<p>LoRaWAN is a Low Power, Wide Area (LPWA) networking protocol developed by the LoRa Alliance, that wirelessly connects battery operated ‘things’ to the internet in regional, national or global networks, targeting key Internet of Things (IoT) requirements such as bi-directional communication, end-to-end security, mobility and localization services.</p>
+<p>LoRaWAN uses unlicensed spectrum in the ISM bands to define the communication protocol and system architecture for the network while the LoRa physical layer creates the long-range communication links between remote sensors and gateways connected to the network. This protocol helps in the quick setup of public or private IoT networks anywhere using hardware and software.</p>
+<p>LoRa is the physical layer i.e. the chip and LoRaWAN is the MAC layer i.e. the software that’s put on the chip to enable networking.</p>
+<p>Example :- <a href="https://www.chirpstack.io/">ChirpStack</a> and <a href="https://www.thethingsnetwork.org/">TTN</a></p>
                 
               
               
@@ -737,7 +674,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../" title="Setting up environment" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../" title="LORA" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -746,19 +683,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Setting up environment
+                LORA
               </div>
             </div>
           </a>
         
         
-          <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../Examples/OnBoard_Peripheral/Blink_Led/" title="Blink Led" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Platform IO
+                Blink Led
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

@@ -13,7 +13,7 @@
     
     
       
-        <title>Arduino IDE - IOT-A-SYNC</title>
+        <title>BLE-MESH - IOT-A-SYNC</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setting-up-arduino-ide" class="md-skip">
+        <a href="#ble-mesh" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Arduino IDE
+              BLE-MESH
             
           </span>
         </div>
@@ -170,12 +170,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       IDE
@@ -195,7 +193,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Setting up environment" class="md-nav__link">
+    <a href="../../environment/" title="Setting up environment" class="md-nav__link">
       Setting up environment
     </a>
   </li>
@@ -205,56 +203,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Arduino IDE
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="Arduino IDE" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../environment/Arduino_Environment/" title="Arduino IDE" class="md-nav__link">
       Arduino IDE
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -264,7 +217,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
+    <a href="../../environment/Paltform_IO_Environment/" title="Platform IO" class="md-nav__link">
       Platform IO
     </a>
   </li>
@@ -474,7 +427,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Bluetooth/" title="Bluetooth Introduction" class="md-nav__link">
+    <a href="../" title="Bluetooth Introduction" class="md-nav__link">
       Bluetooth Introduction
     </a>
   </li>
@@ -486,7 +439,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Bluetooth/Classic/" title="Bluetooth Classic" class="md-nav__link">
+    <a href="../Classic/" title="Bluetooth Classic" class="md-nav__link">
       Bluetooth Classic
     </a>
   </li>
@@ -498,7 +451,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Bluetooth/BLE/" title="Bluetooth Low Energy" class="md-nav__link">
+    <a href="../BLE/" title="Bluetooth Low Energy" class="md-nav__link">
       Bluetooth Low Energy
     </a>
   </li>
@@ -676,28 +629,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#downloading-and-installing-arduino-ide" class="md-nav__link">
-    Downloading and Installing Arduino IDE
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-esp32-add-ons-for-arduino-ide" class="md-nav__link">
-    Installing ESP32 add-ons for Arduino IDE
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -709,16 +640,11 @@
               
                 
                 
-                <h1 id="setting-up-arduino-ide">Setting up Arduino IDE</h1>
-<h2 id="downloading-and-installing-arduino-ide">Downloading and Installing Arduino IDE</h2>
-<p>In order to download the Arduino IDE, visit this link, download and run the installation.</p>
-<h2 id="installing-esp32-add-ons-for-arduino-ide">Installing ESP32 add-ons for Arduino IDE</h2>
-<ul>
-<li>In the Arduino IDE, go to File –&gt; Preferences</li>
-<li>Enter <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> into the “Additional Board Manager URLs” field.</li>
-<li>Go to Tools –&gt; Board –&gt; Boards Manager. In the dialog box, that opens up, search for ESP32, and press install button for the “ESP32 by Espressif Systems“.</li>
-<li>Now, go to Tools –&gt; Board. Now, select the ESP32 DEV Module.</li>
-</ul>
+                <h1 id="ble-mesh">BLE-MESH</h1>
+<p>With various features of ESP-BLE-MESH, users can create a managed flooding mesh network for several scenarios, such as lighting, sensor and etc.</p>
+<p>For an ESP32 to join and work on a ESP-BLE-MESH network, it must be provisioned firstly. By provisioning, the ESP32, as an unprovisioned device, will join the ESP-BLE-MESH network and become a ESP-BLE-MESH node, communicating with other nodes within or beyond the radio range.</p>
+<p>Apart from ESP-BLE-MESH nodes, inside ESP-BLE-MESH network, there is also ESP32 that works as ESP-BLE-MESH Provisioner, which could provision unprovisioned devices into ESP-BLE-MESH nodes and configure the nodes with various features.</p>
+<p>For information how to start using ESP32 and ESP-BLE-MESH, please see the Section Getting Started with <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/esp-ble-mesh/ble-mesh-index.html#getting-started-with-ble-mesh">ESP-BLE-MESH</a>. </p>
                 
               
               
@@ -733,41 +659,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-          <a href="../" title="Setting up environment" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-            </div>
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Setting up environment
-              </div>
-            </div>
-          </a>
-        
-        
-          <a href="../Paltform_IO_Environment/" title="Platform IO" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Platform IO
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
